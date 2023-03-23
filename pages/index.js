@@ -1,8 +1,8 @@
-import React from 'react'
-import Head from 'next/head'
+import React from "react";
+import Head from "next/head";
 
-import SolidButton from '../components/solid-button'
-import PlaceCard from '../components/place-card'
+import SolidButton from "../components/solid-button";
+import PlaceCard from "../components/place-card";
 
 const LandingPage = (props) => {
   return (
@@ -66,7 +66,7 @@ const LandingPage = (props) => {
                   Follow us on
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: ' ',
+                      __html: " ",
                     }}
                   />
                 </span>
@@ -116,7 +116,9 @@ const LandingPage = (props) => {
           </nav>
           <div className="landing-page-hero">
             <div className="landing-page-content-container">
-              <h1 className="Heading landing-page-text09">Book an exclusive</h1>
+              <h1 className="Heading landing-page-text09">
+                我々の挑戦が始まる
+              </h1>
               <h2 className="Subheading landing-page-subheading">
                 home for your personal travel
               </h2>
@@ -125,7 +127,7 @@ const LandingPage = (props) => {
                   Each property is hand-picked,
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: ' ',
+                      __html: " ",
                     }}
                   />
                 </span>
@@ -204,7 +206,7 @@ const LandingPage = (props) => {
                   Summer holiday
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: ' ',
+                      __html: " ",
                     }}
                   />
                 </a>
@@ -249,7 +251,7 @@ const LandingPage = (props) => {
                 Follow us on
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: ' ',
+                    __html: " ",
                   }}
                 />
               </span>
@@ -315,7 +317,7 @@ const LandingPage = (props) => {
             align-items: center;
             flex-direction: column;
             background-size: cover;
-            background-image: url('https://images.unsplash.com/photo-1484627147104-f5197bcd6651?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1000');
+            background-image: url("https://images.unsplash.com/photo-1484627147104-f5197bcd6651?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1000");
             background-position: 0% 40%;
           }
           .landing-page-navbar {
@@ -715,7 +717,7 @@ const LandingPage = (props) => {
         `}
       </style>
     </>
-  )
-}
+  );
+};
 
-export default LandingPage
+export default LandingPage;
