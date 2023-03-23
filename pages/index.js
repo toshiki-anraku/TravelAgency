@@ -117,7 +117,7 @@ const LandingPage = (props) => {
           <div className="landing-page-hero">
             <div className="landing-page-content-container">
               <h1 className="Heading landing-page-text09">
-                我々の挑戦が始まる
+                村里の挑戦が始まる
               </h1>
               <h2 className="Subheading landing-page-subheading">
                 home for your personal travel
